@@ -1,0 +1,11 @@
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.deps.json
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.runtimeconfig.json
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.runtimeconfig.dev.json
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.dll
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.pdb
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.csprojResolveAssemblyReference.cache
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.csproj.CoreCompileInputs.cache
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfoInputs.cache
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfo.cs
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.dll
+E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.pdb

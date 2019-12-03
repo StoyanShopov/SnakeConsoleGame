@@ -9,3 +9,13 @@ E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\net
 E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfo.cs
 E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.dll
 E:\Download\06. CSharp-OOP-Basics-Workshop-SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.pdb
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.deps.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.runtimeconfig.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.runtimeconfig.dev.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.dll
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.pdb
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.csprojAssemblyReference.cache
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfoInputs.cache
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfo.cs
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.dll
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnake\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.pdb

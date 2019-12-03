@@ -1,23 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SimpleSnake.GameObjects
+﻿namespace SimpleSnakeNoBorders.GameObjects
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Point
     {
         private int leftX;
         private int topY;
-        private Random random;
+        private readonly Random random;
 
         public Point()
         {
             this.random = new Random();
         }
 
-        public Point(int leftX,int topY)
-            :this()
+        public Point(int leftX, int topY)
+            : this()
         {
             this.LeftX = leftX;
             this.TopY = topY;
@@ -62,18 +61,19 @@ namespace SimpleSnake.GameObjects
             this.LeftX = this.random.Next(2, Console.WindowWidth - 2);
             this.TopY = this.random.Next(2, Console.WindowHeight - 2);
 
-            bool isPointOfSnake = snakeElements.Any(x => x.TopY == this.TopY && x.LeftX == this.LeftX);
-
-            while (isPointOfSnake)
+            while (IsPointOfSnake(snakeElements))
             {
                 this.LeftX = this.random.Next(2, Console.WindowWidth - 2);
                 this.TopY = this.random.Next(2, Console.WindowHeight - 2);
-
-                isPointOfSnake = snakeElements.Any(x => x.TopY == this.TopY && x.LeftX == this.LeftX);
             }
 
-            return new Point(this.LeftX, this.TopY);
+            var newPoint = new Point(this.LeftX, this.TopY);
+
+            return newPoint;
         }
+
+        private bool IsPointOfSnake(Queue<Point> snakeElements)
+             => snakeElements.Any(x => x.TopY == this.TopY && x.LeftX == this.LeftX);
 
         public void Draw(char symbol)
         {
@@ -81,9 +81,9 @@ namespace SimpleSnake.GameObjects
             Console.Write(symbol);
         }
 
-        public void Draw(int leftX, int topY, char symbol)
+        public void Draw(int left, int top, char symbol)
         {
-            Console.SetCursorPosition(leftX, topY);
+            Console.SetCursorPosition(left, top);
             Console.Write(symbol);
         }
     }

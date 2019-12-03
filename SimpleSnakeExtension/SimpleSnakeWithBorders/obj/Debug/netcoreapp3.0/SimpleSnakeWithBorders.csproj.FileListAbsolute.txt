@@ -1,0 +1,11 @@
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\bin\Debug\netcoreapp3.0\SimpleSnakeWithBorders.exe
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\bin\Debug\netcoreapp3.0\SimpleSnakeWithBorders.deps.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\bin\Debug\netcoreapp3.0\SimpleSnakeWithBorders.runtimeconfig.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\bin\Debug\netcoreapp3.0\SimpleSnakeWithBorders.runtimeconfig.dev.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\bin\Debug\netcoreapp3.0\SimpleSnakeWithBorders.dll
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\bin\Debug\netcoreapp3.0\SimpleSnakeWithBorders.pdb
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\obj\Debug\netcoreapp3.0\SimpleSnakeWithBorders.csprojAssemblyReference.cache
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\obj\Debug\netcoreapp3.0\SimpleSnakeWithBorders.AssemblyInfoInputs.cache
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\obj\Debug\netcoreapp3.0\SimpleSnakeWithBorders.AssemblyInfo.cs
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\obj\Debug\netcoreapp3.0\SimpleSnakeWithBorders.dll
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnakeWithBorders\obj\Debug\netcoreapp3.0\SimpleSnakeWithBorders.pdb

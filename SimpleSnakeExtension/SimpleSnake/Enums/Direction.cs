@@ -1,4 +1,4 @@
-﻿namespace SimpleSnake.Enums
+﻿namespace SimpleSnakeNoBorders.Enums
 {
     public enum Direction
     {

@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SimpleSnake.GameObjects
+﻿namespace SimpleSnakeNoBorders.GameObjects
 {
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class Obstacle : Point
     {
-        private const char obstacleSymbol = '\u2020';
-        private List<Point> obstacles;
+        private const char ObstacleSymbol = '\u2020';
+        private readonly List<Point> obstacles;
 
         public Obstacle()
         {
@@ -16,14 +14,10 @@ namespace SimpleSnake.GameObjects
         }
 
         public bool IsObstacle(Point snakePoint)
-        {
-            return this.obstacles.Any(x => x.LeftX == snakePoint.LeftX && x.TopY == snakePoint.TopY);
-        }
+            => this.obstacles.Any(x => x.LeftX == snakePoint.LeftX && x.TopY == snakePoint.TopY);
 
         public IReadOnlyCollection<Point> Obstacles
-        {
-            get { return this.obstacles.AsReadOnly(); }
-        }
+            => this.obstacles.AsReadOnly();
 
         public void SetRandomObstacle(Queue<Point> snakeElements, Point direction)
         {
@@ -46,7 +40,8 @@ namespace SimpleSnake.GameObjects
             }
 
             this.obstacles.Add(point);
-            point.Draw(obstacleSymbol);
+
+            point.Draw(ObstacleSymbol);
         }
     }
 }

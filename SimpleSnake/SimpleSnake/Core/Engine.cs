@@ -1,26 +1,26 @@
-﻿using SimpleSnake.Enums;
-using SimpleSnake.GameObjects;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
-
-namespace SimpleSnake.Core
+﻿namespace SimpleSnake.Core
 {
+    using System;
+    using System.Threading;
+    using Enums;
+    using GameObjects;
+
     public class Engine
     {
-        private Point[] pointsOfDirection;
+        private readonly Point[] pointsOfDirection;
         private Direction direction;
-        private Snake snake;
-        private Wall wall;
+        private readonly Snake snake;
+        private readonly Wall wall;
         private double sleepTime;
 
         public Engine(Snake snake, Wall wall)
         {
             this.snake = snake;
             this.wall = wall;
+
             this.pointsOfDirection = new Point[4];
             this.direction = Direction.Right;
+
             this.sleepTime = 100;
         }
 

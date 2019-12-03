@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SimpleSnake.GameObjects.Foods
+﻿namespace SimpleSnake.GameObjects.Foods
 {
     public class FoodAsterisk : Food
     {
-        private const char foodSymbol = '*';
-        private const int foodPoints = 1;
+        private const char FoodSymbol = '*';
+        private const int AsteriskFoodPoints = 1;
 
         public FoodAsterisk(Wall wall) 
-            : base(wall, foodSymbol, foodPoints)
+            : base(wall, FoodSymbol, AsteriskFoodPoints)
         {
         }
     }

@@ -31,3 +31,13 @@ E:\SoftUniAssignments\SnakeConsoleGame\SimpleSnakeExtension\SimpleSnake\obj\Debu
 E:\SoftUniAssignments\SnakeConsoleGame\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfo.cs
 E:\SoftUniAssignments\SnakeConsoleGame\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.dll
 E:\SoftUniAssignments\SnakeConsoleGame\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.pdb
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.deps.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.runtimeconfig.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.runtimeconfig.dev.json
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.dll
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\bin\Debug\netcoreapp2.1\SimpleSnake.pdb
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.csprojAssemblyReference.cache
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfoInputs.cache
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.AssemblyInfo.cs
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.dll
+D:\svn\SnakeConsoleGame.git\trunk\SimpleSnakeExtension\SimpleSnake\obj\Debug\netcoreapp2.1\SimpleSnake.pdb

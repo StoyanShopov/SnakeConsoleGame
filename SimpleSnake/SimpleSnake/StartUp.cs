@@ -1,9 +1,7 @@
 ﻿namespace SimpleSnake
 {
-    using SimpleSnake.Core;
-    using SimpleSnake.GameObjects;
-    using System;
-    using System.Threading;
+    using Core;
+    using GameObjects;
     using Utilities;
 
     public class StartUp

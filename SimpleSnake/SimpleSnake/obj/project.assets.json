@@ -516,10 +516,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "TT+QCi9LcxGTjBssH7S7n5+8DVcwfG4DYgXX7Dk7+BfZ4oVHj8Q0CbYk9glzAlHLsSt3bYzol+fOdra2iu6GOw==",
+      "sha512": "aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -686,15 +687,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "E:\\Download\\06. CSharp-OOP-Basics-Workshop-SimpleSnake\\SimpleSnake\\SimpleSnake.csproj",
+      "projectUniqueName": "D:\\svn\\SnakeConsoleGame.git\\trunk\\SimpleSnake\\SimpleSnake\\SimpleSnake.csproj",
       "projectName": "SimpleSnake",
-      "projectPath": "E:\\Download\\06. CSharp-OOP-Basics-Workshop-SimpleSnake\\SimpleSnake\\SimpleSnake.csproj",
+      "projectPath": "D:\\svn\\SnakeConsoleGame.git\\trunk\\SimpleSnake\\SimpleSnake\\SimpleSnake.csproj",
       "packagesPath": "C:\\Users\\Stoyan\\.nuget\\packages\\",
-      "outputPath": "E:\\Download\\06. CSharp-OOP-Basics-Workshop-SimpleSnake\\SimpleSnake\\obj\\",
+      "outputPath": "D:\\svn\\SnakeConsoleGame.git\\trunk\\SimpleSnake\\SimpleSnake\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -708,7 +706,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
@@ -725,16 +724,23 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "2.1",
+            "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

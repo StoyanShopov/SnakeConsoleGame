@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SimpleSnake.GameObjects
+﻿namespace SimpleSnake.GameObjects
 {
+    using System;
+
     public class Point
     {
         private int leftX;
@@ -55,9 +53,9 @@ namespace SimpleSnake.GameObjects
             Console.Write(symbol);
         }
 
-        public void Draw(int leftX, int topY, char symbol)
+        public void Draw(int left, int top, char symbol)
         {
-            Console.SetCursorPosition(leftX, topY);
+            Console.SetCursorPosition(left, top);
             Console.Write(symbol);
         }
     }

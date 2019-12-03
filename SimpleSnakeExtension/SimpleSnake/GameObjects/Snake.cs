@@ -1,18 +1,17 @@
-﻿using SimpleSnake.GameObjects.Foods;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SimpleSnake.GameObjects
+﻿namespace SimpleSnakeNoBorders.GameObjects
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Foods;
+
     public class Snake
     {
-        private const char snakeSymbol = '\u25CF';
+        private const char SnakeSymbol = '\u25CF';
 
-        private Queue<Point> snakeElements;
-        private Food[] foods;
-        private Obstacle obstacle;
+        private readonly Queue<Point> snakeElements;
+        private readonly Food[] foods;
+        private readonly Obstacle obstacle;
 
         private int nextLeftX;
         private int nextTopY;
@@ -24,6 +23,7 @@ namespace SimpleSnake.GameObjects
             this.foodIndex = this.RandomFoodNumber;
             this.snakeElements = new Queue<Point>();
             this.obstacle = new Obstacle();
+
             this.GetFoods();
             this.CreateSnake();
         }
@@ -40,6 +40,8 @@ namespace SimpleSnake.GameObjects
 
         public int RandomFoodNumber => new Random().Next(0, this.foods.Length);
 
+        //IsMoving method does not follow single responsibility principles
+        //TODO: Refactor
         public bool IsMoving(Point direction)
         {
             Point currentSnakeHead = this.snakeElements.Last();
@@ -86,7 +88,8 @@ namespace SimpleSnake.GameObjects
 
             this.snakeElements.Enqueue(snakeNewHead);
             Console.BackgroundColor = ConsoleColor.Gray;
-            snakeNewHead.Draw(snakeSymbol);
+
+            snakeNewHead.Draw(SnakeSymbol);
             Console.BackgroundColor = ConsoleColor.White;
 
             if (this.foods[this.foodIndex].IsFoodPoint(snakeNewHead))

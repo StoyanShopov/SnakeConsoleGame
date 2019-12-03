@@ -1,9 +1,7 @@
-﻿namespace SimpleSnake
+﻿namespace SimpleSnakeNoBorders
 {
-    using SimpleSnake.Core;
-    using SimpleSnake.GameObjects;
-    using System;
-    using System.Threading;
+    using Core;
+    using GameObjects;
     using Utilities;
 
     public class StartUp
@@ -12,7 +10,6 @@
         {
             ConsoleWindow.CustomizeConsole();
 
-           // Wall wall = new Wall(60, 20);
             Snake snake = new Snake();
 
             Engine engine = new Engine(snake);

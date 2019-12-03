@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SimpleSnake.GameObjects.Foods
+﻿namespace SimpleSnakeNoBorders.GameObjects.Foods
 {
     public class FoodHash : Food
     {
-        private const char foodSymbol = '#';
-        private const int foodPoints = 3;
+        private const char FoodSymbol = '#';
+        private const int HashFoodPoints = 3;
 
         public FoodHash()
-            : base(foodSymbol, foodPoints)
+            : base(FoodSymbol, HashFoodPoints)
         {
         }
     }

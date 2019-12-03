@@ -1,17 +1,15 @@
-﻿using SimpleSnake.Enums;
-using SimpleSnake.GameObjects;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
-
-namespace SimpleSnake.Core
+﻿namespace SimpleSnakeNoBorders.Core
 {
+    using System;
+    using System.Threading;
+    using Enums;
+    using GameObjects;
+
     public class Engine
     {
-        private Point[] pointsOfDirection;
+        private readonly Point[] pointsOfDirection;
         private Direction direction;
-        private Snake snake;
+        private readonly Snake snake;
         private double sleepTime;
 
         public Engine(Snake snake)
@@ -46,7 +44,6 @@ namespace SimpleSnake.Core
             }      
         }
 
-       
         private void AskUserForRestart()
         {
             int leftX = Console.WindowWidth / 2;

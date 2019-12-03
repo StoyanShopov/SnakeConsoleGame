@@ -1,18 +1,17 @@
-﻿using SimpleSnake.GameObjects.Foods;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SimpleSnake.GameObjects
+﻿namespace SimpleSnake.GameObjects
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Foods;
+
     public class Snake
     {
-        private const char snakeSymbol = '\u25CF';
+        private const char SnakeSymbol = '\u25CF';
 
-        private Queue<Point> snakeElements;
-        private Food[] foods;
-        private Wall wall;
+        private readonly Queue<Point> snakeElements;
+        private readonly Food[] foods;
+        private readonly Wall wall;
 
         private int nextLeftX;
         private int nextTopY;
@@ -22,12 +21,12 @@ namespace SimpleSnake.GameObjects
         {
             this.wall = wall;
             this.foods = new Food[3];
+
             this.foodIndex = this.RandomFoodNumber;
             this.snakeElements = new Queue<Point>();
+
             this.GetFoods();
             this.CreateSnake();
-            //not here
-          
         }
 
         private void CreateSnake()
@@ -40,8 +39,11 @@ namespace SimpleSnake.GameObjects
             this.foods[this.foodIndex].SetRandomPosition(snakeElements);
         }
 
-        public int RandomFoodNumber => new Random().Next(0, this.foods.Length);
+        public int RandomFoodNumber 
+            => new Random().Next(0, this.foods.Length);
 
+        //IsMoving method does not follow single responsibility principle
+        //TODO: Refactor
         public bool IsMoving(Point direction)
         {
             Point currentSnakeHead = this.snakeElements.Last();
@@ -64,7 +66,7 @@ namespace SimpleSnake.GameObjects
             }
 
             this.snakeElements.Enqueue(snakeNewHead);
-            snakeNewHead.Draw(snakeSymbol);
+            snakeNewHead.Draw(SnakeSymbol);
 
             if (this.foods[this.foodIndex].IsFoodPoint(snakeNewHead))
             {
@@ -90,6 +92,7 @@ namespace SimpleSnake.GameObjects
 
             this.wall.AddPoints(this.snakeElements);
             this.wall.PlayerInfo();
+
             this.foodIndex = this.RandomFoodNumber;
             this.foods[foodIndex].SetRandomPosition(snakeElements);
         }
